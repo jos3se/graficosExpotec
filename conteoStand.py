@@ -34,4 +34,5 @@ orientaciones = ["Ciclo basico","Quimica","Electromecanica","Soldadura","Program
 colores = ["#EE6055","#60D394","#AAF683","#FFD97D","#FF9B85"]
 ig, ax = plt.subplots()
 ax.pie(listaStands,labels=orientaciones,autopct="%0.1f %%", colors=colores)
+ax.set_title("Cantidad de stands por orientacion")
 plt.show()
